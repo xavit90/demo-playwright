@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Servidor de navegador (scripts/app/browser-server.js)
+.browser-ws
+
+# Artefactos generados por graphify
+/graphify-out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
