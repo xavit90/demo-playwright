@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "mssql-adventureworks": {
+      "command": "ave-mcpserver-mssqlclient",
+      "args": [],
+      "env": {
+        "MSSQL_CONNECTIONSTRING": "${MSSQL_CONNSTR_ADVENTUREWORKS}",
+        "DatabaseConfiguration__EnableExecuteQuery": "true",
+        "DatabaseConfiguration__EnableExecuteStoredProcedure": "false",
+        "DatabaseConfiguration__EnableStartQuery": "false",
+        "DatabaseConfiguration__EnableStartStoredProcedure": "false"
+      }
+    },
+    "mssql-bd2": {
+      "command": "ave-mcpserver-mssqlclient",
+      "args": [],
+      "env": {
+        "MSSQL_CONNECTIONSTRING": "${MSSQL_CONNSTR_BD2}",
+        "DatabaseConfiguration__EnableExecuteQuery": "true",
+        "DatabaseConfiguration__EnableExecuteStoredProcedure": "false",
+        "DatabaseConfiguration__EnableStartQuery": "false",
+        "DatabaseConfiguration__EnableStartStoredProcedure": "false"
+      }
+    },
+    "mssql-bd3": {
+      "command": "ave-mcpserver-mssqlclient",
+      "args": [],
+      "env": {
+        "MSSQL_CONNECTIONSTRING": "${MSSQL_CONNSTR_BD3}",
+        "DatabaseConfiguration__EnableExecuteQuery": "true",
+        "DatabaseConfiguration__EnableExecuteStoredProcedure": "false",
+        "DatabaseConfiguration__EnableStartQuery": "false",
+        "DatabaseConfiguration__EnableStartStoredProcedure": "false"
+      }
+    }
+  }
+}
